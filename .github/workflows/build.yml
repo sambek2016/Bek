@@ -27,7 +27,7 @@ jobs:
           gradle-version: '8.9'
 
       - name: Extract project
-        run: unzip -o Hisabati_from_101026_NEW.zip -d project
+        run: unzip -o Hisabati_from_101026_fixed.zip -d project
 
       - name: Build APK
         run: |
